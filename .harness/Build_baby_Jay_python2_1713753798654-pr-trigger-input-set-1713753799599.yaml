@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_baby_Jay_python2_1713753798654-pr-trigger-input-set
+  identifier: Build_baby_Jay_python2_1713753798654prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_baby_Jay_python2_1713753798654
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
