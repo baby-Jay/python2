@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_baby_Jay_python2_1713753798654-push-trigger-input-set
+  identifier: Build_baby_Jay_python2_1713753798654pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_baby_Jay_python2_1713753798654
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
